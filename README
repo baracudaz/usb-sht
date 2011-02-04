@@ -3,7 +3,9 @@ Author: Stanislav Likavcan (likavcan@gmail.com)
 
 Project is to demonstrate AVR ATmega8 running V-USB stack communication with SHT-1x sensor
 
-Once you build the circuit according the schematics, and upload the firmware using "make flash", you can run python script with various parameters:
+Once you build the circuit according the schematics, and upload the firmware using "make flash", then you can run python script with various parameters and watch the output.
+
+This whole project is really simple and meant to be starting point for more   complex projects. If you find it useful, let me know. :-)  
 
 $ cd python
 $ ./usbsht.py echo
