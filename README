@@ -7,10 +7,14 @@ Once you build the circuit according the schematics, and upload the firmware usi
 
 This whole project is really simple and meant to be a starting point for more complex projects. If you find it useful, let me know. :-)  
 
+Echo test
+=========
 $ cd python
 $ ./usbsht.py echo
 Echo test successful!
 
+Reading values from SHT-1x Sensor
+=================================
 $ ./usbsht.py temp
 Temperature : 24.38
 $ ./usbsht.py hum
@@ -18,6 +22,8 @@ Relative Humidity : 50.21
 $ ./usbsht.py dew
 Dew Point : 13.26
 
+Turning the LED on/off
+======================
 $ ./usbsht.py on
 $ ./usbsht.py status
 LED is on
