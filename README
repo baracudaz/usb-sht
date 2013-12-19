@@ -29,5 +29,5 @@ $ ./usbsht.py status
 LED is on
 $ ./usbsht.py off
 $ ./usbsht.py status
-LED if off
+LED is off
 
